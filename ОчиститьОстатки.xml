@@ -60,20 +60,16 @@
 			</Attribute>
 			<Attribute uuid="4d3d3f72-9def-4cca-ac7c-74f26e89de9d">
 				<Properties>
-					<Name>Склад</Name>
+					<Name>КассаККМ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Склад</v8:content>
+							<v8:content>Касса ККМ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

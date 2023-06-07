@@ -24,7 +24,7 @@
 			<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Склад" id="4">
-			<DataPath>Объект.Склад</DataPath>
+			<DataPath>Объект.КассаККМ</DataPath>
 			<ContextMenu name="СкладКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="6"/>
 		</InputField>
@@ -43,8 +43,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
+				<Field>Объект.КассаККМ</Field>
 				<Field>Объект.Регистратор</Field>
-				<Field>Объект.Склад</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
